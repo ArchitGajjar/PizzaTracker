@@ -7,7 +7,7 @@ var window = require('window'),
 require('./market').init();
 require('./line-chart').drawMain();
 
-window.show = (ticker) => {
+window.show = function (ticker) {
   var pizza,
     $spotlight = $('#spotlight'),
     $summaries = $('#summaries');
