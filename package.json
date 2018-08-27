@@ -22,6 +22,6 @@
     "build": "./node_modules/.bin/webpack",
     "dev": "./node_modules/.bin/nodemon --exec 'npm build && npm start'"
   },
-  "author": "Ryan Lewis <ryan@ryanhlewis.com>",
+  "author": "Archit Gajjar <architgajajr1992@gmail.com>",
   "license": "ISC"
 }
